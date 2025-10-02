@@ -1,0 +1,97 @@
+/* ===== Reset básico ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* ===== Body ===== */
+body {
+  background: #f5f7fa;
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+/* ===== Encabezado ===== */
+header {
+  text-align: center;
+  padding: 20px;
+  background: linear-gradient(135deg, #0077b6, #0096c7);
+  color: white;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+header h1 {
+  font-size: 2rem;
+  margin-bottom: 5px;
+}
+
+header p {
+  font-size: 1.2rem;
+}
+
+/* ===== Menú ===== */
+nav {
+  margin-top: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  margin: 0 15px;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #ffdd00;
+}
+
+/* ===== Secciones ===== */
+section {
+  background: white;
+  padding: 20px;
+  margin: 15px auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+}
+
+section h2 {
+  color: #0077b6;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #0096c7;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+/* ===== Listas ===== */
+ul {
+  margin-top: 10px;
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+/* ===== Imagen de contacto ===== */
+section img {
+  border-radius: 50%;
+  border: 3px solid #0096c7;
+  float: right;
+  margin-left: 15px;
+}
+
+/* ===== Links ===== */
+a {
+  color: #0096c7;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
